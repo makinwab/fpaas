@@ -1,7 +1,7 @@
 {
-  "name": "ng2-start",
+  "name": "FPaaS",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fingerprint as a Service",
   "main": "index.js",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\"  \"npm run lite\"",
@@ -10,6 +10,9 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "postinstall": "typings install"
+  },
+  "engines": {
+    "node": "4.2.2"
   },
   "keywords": [],
   "author": "",
