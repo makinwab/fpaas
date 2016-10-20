@@ -11,18 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
-        this.message = "Hello World!";
-        this.users = [
-            { id: 25, name: "Makinwa Bukola", username: "makinwab" },
-            { id: 26, name: "Chris", username: "sevilayha" },
-            { id: 27, name: "Nick", username: "whatnicktweets" },
-            { id: 28, name: "Holly", username: "hollylawly" }
-        ];
     }
-    AppComponent.prototype.selectUser = function (user) {
-        this.activeUser = user;
-        console.log(user);
-    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
